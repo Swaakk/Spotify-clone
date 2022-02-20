@@ -4,6 +4,9 @@ import {FaSpotify,FaEllipsisH} from "react-icons/fa"
 import {BiSearchAlt} from "react-icons/bi"
 import { MenuList } from './MenuList'
 import { Menu } from './Menu'
+import { MenuPlay } from './MenuPlay'
+
+
 
 
 function LeftMenuu() {
@@ -26,6 +29,9 @@ function LeftMenuu() {
           </i>
         </div>
           <Menu title={'Menu'} MenuObject={MenuList}/>
+          <MenuPlay/>
+          
+          
     </div> 
   )
 }
