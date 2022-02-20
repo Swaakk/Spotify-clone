@@ -2,7 +2,9 @@ import React from 'react'
 
 function MainContainer() {
   return (
-    <div>MainContainer</div>
+    <div>
+      
+    </div>
   )
 }
 
