@@ -15,8 +15,8 @@ function Menu({title,MenuObject}) {
       },[])
 
   return (
-    <div className='MenuContainer'> 
-        <p className='title'>{title}</p>
+    <div className='MenuContainer' > 
+        <p className='title' >{title}</p>
         <ul>
             {
                 MenuObject && MenuObject.map((li)=>(
