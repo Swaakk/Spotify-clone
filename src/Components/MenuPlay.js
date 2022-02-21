@@ -16,10 +16,21 @@ function MenuPlay() {
         </div>
 
         <div className='playListScroll'>
-            <i>
-                <BsMusicNoteList/>
-            </i>
-        </div>
+            {
+                PlayList && PlayList.map((list)=>(
+                    <div className="playList">
+                        <i className='list'>
+                            <BsMusicNoteList/>
+                        </i>
+                            <p>Sample name</p>
+                        <i className='trash'>
+                            <BsTrash/>
+                        </i>
+                    </div>
+                ))
+            }
+            
+    </div>
 
     </div>
   )

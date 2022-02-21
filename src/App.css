@@ -4,7 +4,10 @@
     position: relative;
     overflow: hidden;
     display: flex;
-    background: #000;
+    background: black;
+    /* filter: grayscale(100); */
+    /* background: url(./img/background.jpg) no-repeat center; */
+    background-size: cover;
 }
 
 .background{
@@ -13,8 +16,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /* background: url(./img/background.jpg) no-repeat center;
-    background-size: cover;
-    filter: grayscale(100);
-    z-index: 1; */
+    /* background-size: cover; */
+    z-index: 1;
 } 

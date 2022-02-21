@@ -5,6 +5,7 @@ import {BiSearchAlt} from "react-icons/bi"
 import { MenuList } from './MenuList'
 import { Menu } from './Menu'
 import { MenuPlay } from './MenuPlay'
+import { TrackList } from './TrackList'
 
 
 
@@ -30,6 +31,7 @@ function LeftMenuu() {
         </div>
           <Menu title={'Menu'} MenuObject={MenuList}/>
           <MenuPlay/>
+          <TrackList/>
           
           
     </div> 
