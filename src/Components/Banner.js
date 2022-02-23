@@ -10,7 +10,7 @@ function Banner() {
         <div className="banner">
             <img className='bannerImg' src={Artist} alt="" />
             <div className='content'>
-                <div className='BreadCrump'>
+                <div className='breadCrump'>
                     <p>
                         Home <span>/Popular Artist</span>
                     </p>
@@ -25,7 +25,7 @@ function Banner() {
                             <img src={Check} alt="" />
                         </div>
                         <p>
-                            <i>
+                            <i className='head'>
                                 <FaHeadphones/>
                             </i>{" "}
                             11,184,1811 <span>Mothly Listeners</span>
@@ -33,7 +33,7 @@ function Banner() {
                     </div>
                     <div className="right">
                         <a href="#">Play</a>
-                        <a href="#"><i><FaCheck/></i></a>
+                        <a href="#">Following<i><FaCheck/></i></a>
                     </div>
                 </div>
             </div>
